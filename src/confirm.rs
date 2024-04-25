@@ -221,7 +221,8 @@ mod tests {
 
                  Yes!     No.  
 
-              ←/→ toggle • y/n/enter submit"
+              ←/→ toggle • y/n/enter submit
+              "
             },
             without_ansi(confirm.render().unwrap().as_str())
         );

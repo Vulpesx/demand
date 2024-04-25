@@ -355,7 +355,8 @@ mod tests {
                  Canada
                  Mexico
 
-              ↑/↓/k/j up/down • enter confirm"
+              ↑/↓/k/j up/down • enter confirm
+              "
             },
             without_ansi(select.render().unwrap().as_str())
         );
@@ -397,7 +398,8 @@ mod tests {
                > First
                  2
 
-              ↑/↓/k/j up/down • enter confirm"
+              ↑/↓/k/j up/down • enter confirm
+              "
             },
             without_ansi(select.render().unwrap().as_str())
         );
