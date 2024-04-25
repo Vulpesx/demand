@@ -318,6 +318,8 @@ impl<'a> Input<'a> {
             write!(out, " * {}", self.err.as_ref().unwrap())?;
             out.reset()?;
         }
+        writeln!(out)?;
+        out.reset()?;
 
         Ok(std::str::from_utf8(out.as_slice()).unwrap().to_string())
     }
